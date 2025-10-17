@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fastkart - Next Js Document" />
+  <meta name="keywords" content="Fastkart - Next Js Document" />
+  <meta name="author" content="pixelstrap" />
+  <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <title>Fastkart - Next Js Document</title>
+  <!-- Google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome-->
+  <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css" />
+  <!-- Feather icon-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css" />
+  <!-- Remix icon-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/remixicon.css" />
+  <!-- Remix icon-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/remixicon.css" />
+  <!-- animate-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css" />
+  <!-- Bootstrap css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css" />
+  <!-- App css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- tap on top starts-->
+  <a href="javascript:void(0)" class="sidebar-overlay"></a>
+  <div class="tap-top">
+    <i data-feather="chevrons-up"></i>
+    <p>Top</p>
+  </div>
+  <!-- tap on tap ends-->
+  <div>
+    <div class="home-section">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container custom-container">
+          <div class="main-menu">
+            <a class="navbar-brand" href="index.html"> <img src="assets/images/logo/logo.png" alt="" /></a>
+            <div>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><i class="fa fa-bars"> </i></button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav menu">
+                  <li class="nav-item active"><a class="nav-link" href="https://themeforest.net/user/pixelstrap"
+                      role="button" aria-haspopup="true" aria-expanded="false" target="_blank">Purchase</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://support.pixelstrap.com/" role="button"
+                      aria-haspopup="true" aria-expanded="false" target="_blank">Support</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://landing.pixelstrap.net/laravel/fastkart/"
+                      role="button" aria-haspopup="true" aria-expanded="false" target="_blank">Demo</a></li>
+                  <li class="nav-item"><a class="nav-link" href="features.html" role="button" aria-haspopup="true"
+                      aria-expanded="false" target="_blank">Feature </a></li>
+                </ul>
+              </div>
+            </div>
+            <ul class="nav-right">
+
+              <li>
+                <div class="btn-group"><a class="decrease btn btn-doc" href="#" title="Decrease font size">A-</a><a
+                    class="reset btn btn-doc" href="#" title="Default font size">A</a><a class="increase btn btn-doc"
+                    href="#" title="Increase font size">A+</a></div>
+              </li>
+              <li>
+                <a class="btn btn-light mode" href="#" title="Dark"><i class="fa fa-moon-o"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container custom-container">
+        <div class="document">
+          Laravel + Next Js <span> Documentation</span>
+        </div>
+        <div class="top-heading">
+          <h2>Fastkart offers stunning and one-of-a-kind website demos tailored to your grocery, bakery, and online
+            store needs. With Fastkart, you'll find everything you require to craft the ideal website for your business.
+            Fastkart - your all-in-one solution!</h2>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container custom-container" id="mainRightNavbar">
+    <div class="document-main">
+      <div class="left-sidebar">
+        <aside>
+          <button class="btn button-close">
+            <span>Close</span>
+            <i data-feather="x"></i>
+          </button>
+          <ul class="list-unstyled nav-sidebar doc-nav">
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="index.html">Introduction</a></div>
+            </li>
+
+            <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="true">Getting Started
+                    <i class="ri-arrow-down-s-line collapse-icon"></i>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul class="dropdown-nav">
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="laravel-requirment.html">Prerequisites</a></div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="server-config.html">Localhost Configuration</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="nextjs-config.html">Install NodeJs </a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample2">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne2" aria-expanded="true">Fastkart Installation
+                                <i class="ri-arrow-down-s-line collapse-icon"></i>
+                              </button>
+                            </h2>
+                            <div id="flush-collapseOne2" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample2">
+                              <div class="accordion-body">
+                                <ul class="dropdown-nav">
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="overview.html">Overview</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="laravel-installer.html">Fastkart
+                                        Laravel API (GUI)</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="laravel-install.html">Fastkart Laravel
+                                        API (CLI)</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="nextjs-frontend.html">Fastkart NextJs
+                                        Frontend</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="nextjs-admin.html">Fastkart NextJs
+                                        Admin</a></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample5">
+              <div class="accordion-item ">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne5" aria-expanded="true">Deployment
+                    <i class="ri-arrow-down-s-line collapse-icon"></i>
+                  </button>
+
+                </h2>
+                <div id="flush-collapseOne5" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample5">
+                  <div class="accordion-body">
+                    <ul class="dropdown-nav">
+                      <li class="nav-item ">
+                        <div class="title"><a class="nav-link" href="deployment-overview.html">Overview</a></div>
+                      </li>
+                      <li class="nav-item ">
+                        <div class="title"><a class="nav-link" href="cpanel-deployment-gui.html">cPanel Server Laravel
+                            (GUI)</a>
+                        </div>
+                      </li>
+                      <li class="nav-item ">
+                        <div class="title"><a class="nav-link " href="cpanel-deployment.html">cPanel Server Laravel
+                            (CLI)</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample20">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne21" aria-expanded="true">Virtual Private Server (VPS)
+                                <i class="ri-arrow-down-s-line collapse-icon"></i>
+                              </button>
+                            </h2>
+                            <div id="flush-collapseOne21" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample20">
+                              <div class="accordion-body">
+                                <ul class="dropdown-nav">
+
+                                  <li class="nav-item">
+                                    <div class="accordion accordion-flush sidebar-accordion"
+                                      id="accordionFlushExample21">
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapse" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne23">Create Virtual Machine
+                                            <i class="ri-arrow-down-s-line collapse-icon"></i>
+                                          </button>
+                                        </h2>
+                                        <div id="flush-collapseOne23" class="accordion-collapse collapse"
+                                          data-bs-parent="#accordionFlushExample21">
+                                          <div class="accordion-body">
+                                            <ul class="dropdown-nav">
+                                              <li class="nav-item">
+                                                <div class="title"><a class="nav-link" href="aws-ec2.html">AWS</a></div>
+                                              </li>
+                                              <li class="nav-item">
+                                                <div class="title"><a class="nav-link" href="digital-ocean.html">Digital
+                                                    Ocean</a></div>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="lamp-stack-install.html">Apache Server
+                                        (LAMP)</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="lemp-stack-install.html">Nginx
+                                        Server(LEMP)</a></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="vercel.html">Vercel</a></div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="github-setup.html">Update Old To New Version</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="fonts.html">Fonts</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="usecontext.html">useContext Hook</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="routing.html">Routing</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="theme-layouts.html">Theme Layout</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="multi-vendor.html">Multi Vendors</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="admin.html">Admin</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="gmail-configuration.html">Gmail Configuration</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="notice.html">Notice</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="pos.html">POS</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="manage-orders.html">Manage Orders</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="refund.html">Refund</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="review.html">Review</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="question-answer.html">Q&A</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="theme-types.html">Theme Type</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="home-page.html">Home Page</a></div>
+            </li> <li class="nav-item">
+              <div class="title"><a class="nav-link" href="menu.html">Menu</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="mode.html">Mode</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="currency.html">Currency</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="multi-language.html">Multi Language</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="role.html">Role</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="user.html">User</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="coupon.html">Coupon</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="category.html">Category</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="store.html">Store</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="product.html">Product</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="faq.html">Faqs</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="wallet.html">Wallet</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="setting.html">Settings</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="theme-option.html">Theme Option</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title">
+                <a class="nav-link" href="payment-gateway.html">Payment Gateway</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="title">
+                <a href="features.html" class="nav-link px-0"> Features </a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <div class="title">
+                <a class="nav-link" href="thankyou.html">Thank you</a>
+              </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="content">
+        <div class="row">
+          <div class="col-sm-12">
+            <button class="btn sidebar-button">Menu</button>
+            <h4 class="main-title mb-4">
+              <img src="assets/images/favicon.png" alt="" id="databaseSetup" />Virtual Private Server
+            </h4>
+          </div>
+          <div class="col-12">
+            <div class="warning-block">
+              <b>Note:</b>
+              <ol>
+                <li>You can set up FastKart on different types of clean Ubuntu servers using VPS, including Digital
+                  Ocean Droplets, Amazon Lightsail, AWS, Google Cloud Virtual Private Server, Azure Ubuntu Virtual
+                  Private Server, and more.</li>
+                <li>If you plan to utilize all the scripts <b>(fastkart-api, nextjs-fastkart-frontend,
+                    nextjs-fastkart-admin)</b> on a single server as outlined in this tutorial, we suggest setting up a
+                  new Ubuntu-based server with a minimum of 2+ CPU cores and 2GB+ of memory for an efficient and smooth
+                  operation.
+                </li>
+              </ol>
+            </div>
+
+
+            <div class="card">
+              <div class="card-body ul-body steps-ul">
+                <h4 class="main-sub-title">Setup Server</h4>
+                <ul style="margin-left: 15px;">
+                  <h4 class="sub-title mt-4">1. Login to your server:</h4>
+                  <p style="padding-left: 16px">
+                    - Log in to your server using SSH and Terminal. Use the provided credentials based on your server
+                    type, like Ubuntu or AWS.
+                  </p>
+
+                  <h4 class="sub-title mt-4">2. Setup NGINX:</h4>
+                  <h5 class="sub-title sm">Step 1: Installing Nginx</h5>
+                  <p style="padding-left: 16px">
+                    - Following that, you can choose to install either NGINX or Apache. However, for the purpose of this
+                    demonstration, we'll proceed with NGINX, you can install it using the following command.</p>
+
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#aptInstallNginx"
+                      title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="aptInstallNginx">sudo apt install nginx</code></pre>
+                  </div>
+
+                  <p>After accepting the procedure, apt will install Nginx and any required dependencies to your server.
+                  </p>
+
+
+                  <h5 class="sub-title sm">Step 2: Adjusting the Firewall</h5>
+                  <p style="padding-left: 16px"> - Before testing Nginx, the firewall software needs to be adjusted to
+                    allow access to the service. Nginx registers itself as a service with ufw upon installation, making
+                    it straightforward to allow Nginx access.</p>
+
+                  <p style="padding-left: 16px"> - List the application configurations that ufw knows how to work with
+                    by typing:</p>
+
+
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#ufwAppList" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="ufwAppList">sudo ufw app list</code></pre>
+                  </div>
+
+                  <p style="padding-left: 16px"> - You should get a listing of the application profiles:</p>
+
+                  <div class="effect-sec mt-2">
+                    <img style="
+                          margin-top: 10px;
+                          margin-bottom: 15px;
+                          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+                          border-radius: 5px;
+                          padding: 20px;
+                        " src="assets/images/laravelApi/vps/vps-1.png" class="img-fluid girl-img" alt="" />
+                  </div>
+
+                  <p style="padding-left: 16px"> - As demonstrated by the output, there are three profiles available for
+                    Nginx:</p>
+                  <ol>
+                    <li><b>Nginx Full: </b> This profile opens both port 80 (normal, unencrypted web traffic) and port
+                      443 (TLS/SSL encrypted traffic)</li>
+                    <li><b>Nginx HTTP: </b> This profile opens only port 80 (normal, unencrypted web traffic)</li>
+                    <li><b>Nginx HTTPS: </b> This profile opens only port 443 (TLS/SSL encrypted traffic)</li>
+                  </ol>
+
+                  <p style="padding-left: 16px"> - It is recommended that you enable the most restrictive profile that
+                    will still allow the traffic you’ve configured. Right now, we will only need to allow traffic on
+                    port 80.</p>
+
+                  <p style="padding-left: 16px"> - You can enable this by typing:</p>
+
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#nginxHttp" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="nginxHttp">sudo ufw allow 'Nginx HTTP'</code></pre>
+                  </div>
+
+                  <p style="padding-left: 16px"> - Verify the change by typing:</p>
+
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#ufwStatus" title="Copy"><i
+                        class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre class="language-html"><code class="language-html" id="ufwStatus">sudo ufw status</code></pre>
+                  </div>
+
+                  <p style="padding-left: 16px"> - The output will indicated which HTTP traffic is allowed:
+                  </p>
+
+                  <div class="effect-sec mt-2">
+                    <img style="
+                          margin-top: 10px;
+                          margin-bottom: 15px;
+                          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+                          border-radius: 5px;
+                          padding: 20px;
+                        " src="assets/images/laravelApi/vps/vps-2.png" class="img-fluid girl-img" alt="" />
+                  </div>
+                </ul>
+                <h5 class="sub-title sm">Step 3: Checking your Web Server</h5>
+                <p style="padding-left: 16px"> - At the end of the installation process, Ubuntu 20.04 starts Nginx. The
+                  web server should already be up and running.</p>
+
+                <p style="padding-left: 16px"> - The systemd init system to make sure the service is running by typing:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#statusNginx" title="Copy"><i
+                      class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="statusNginx">systemctl status nginx</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/laravelApi/vps/vps-3.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p style="padding-left: 16px"> - As confirmed by this out, the service has started successfully.
+                  However, the best way to test this is to actually request a page from Nginx.</p>
+
+
+                <h4 class="sub-title mt-4">3. Installing PHP</h4>
+
+                <p style="padding-left: 16px"> - To install php package, run the following command:</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#installPHPExtensions"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="installPHPExtensions">sudo apt install php8.2-mbstring php8.2-xml php8.2-bcmath php8.2-simplexml php8.2-intl php8.2-gd php8.2-curl php8.2-zip php8.2-gmp</code></pre>
+                </div>
+
+                <p style="padding-left: 16px"> - Once the installation is finished, you can run the following command to
+                  confirm your PHP version:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#phpVersion" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="phpVersion">php -v</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/laravelApi/vps/vps-4.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <h4 class="sub-title mt-4">4. Installing Composer</h4>
+                <p style="padding-left: 16px"> - Update the local repository lists by entering the following in a
+                  command line.</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#aptUpdateClear" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="aptUpdateClear">sudo apt update</code></pre>
+                </div>
+
+                <p style="padding-left: 16px"> - The following curl command to have the latest Composer version.</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#composerDownload"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="composerDownload">curl -sS https://getcomposer.org/installer | php</code></pre>
+                </div>
+
+
+                <p style="padding-left: 16px"> - This will download and execute an installer script that will download
+                  the latest version of Composer and install it in your current working directory.</p>
+
+                <p style="padding-left: 16px"> - You’ll need to move the composer to use Composer globally and run the
+                  Composer commands from anywhere.phar file from your current directory to a location included in your
+                  PATH environment variable.</p>
+
+                <p style="padding-left: 16px"> - The most common location is the /usr/local/bin directory. So use the
+                  following command to initiate the move:</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#mvCOmposer" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="mvCOmposer">sudo mv composer.phar /usr/local/bin/composer</code></pre>
+                </div>
+
+                <p style="padding-left: 16px"> - To test composer installation, run:</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#composer" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="composer">composer</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/laravelApi/vps/vps-5.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <h4 class="sub-title mt-4">5. Install MySQL Database & User</h4>
+
+                <p style="padding-left: 16px"> - Now that you have a web server up and running, you need to install the
+                  database system to be able to store and manage data for your site. MySQL is a popular database
+                  management system used within PHP environments.</p>
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#mysqlServer" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="mysqlServer">sudo apt install mysql-server</code></pre>
+                </div>
+
+                <p style="padding-left: 16px;">
+                  - When prompted, confirm installation by typing Y, and then ENTER.
+                </p>
+                <p style="padding-left: 16px">
+                  - Start the interactive script by running:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#secureInstallSQL"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="secureInstallSQL">sudo mysql_secure_installation</code></pre>
+                </div>
+
+                <p style="padding-left: 16px">
+                  - When you’re finished, test whether you’re able to log in to the MySQL console by typing:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#loginSQL" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="loginSQL">sudo mysql</code></pre>
+                </div>
+
+                <P style="padding-left: 16px">
+                  - This will connect to the MySQL server as the administrative database user root, which is inferred by
+                  the use of sudo when running this command. Below is an example output:
+                </P>
+
+                <P style="padding-left: 16px">
+                  - Create MySQL database and assign all privileges by using following commands:
+                </P>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#datababseSQL" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="datababseSQL">CREATE DATABASE fastkart_laravel;</code></pre>
+                </div>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#dbSQL" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="dbSQL">CREATE USER 'fastkart'@'%' IDENTIFIED WITH mysql_native_password BY 'password';</code></pre>
+                </div>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#flushSQL" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="flushSQL">GRANT ALL ON fastkart_laravel.* TO 'fastkart'@'%';</code></pre>
+                </div>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#flushSQL" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="flushSQL">FLUSH PRIVILEGES;</code></pre>
+                </div>
+
+                <h4 class="sub-title mt-4">7. Change permission for the www folder </h4>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#permissionFolder"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="permissionFolder">sudo chown -R $USER:$USER /var/www;</code></pre>
+                </div>
+
+                <h4 class="sub-title mt-4">8. Upload Fastkart API to Server</h4>
+
+                <P style="padding-left: 16px">
+                  - To make a new directory on your website, just type this command:
+                </P>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#makeFolder" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="makeFolder">mkdir /var/www/fastkart</code></pre>
+                </div>
+
+                <ol>
+                  <li>Download the <b>fastkart-laravel-nextjs-package</b> zip file from CodeCanyon and unzip it on your
+                    computer.</li>
+                  <li>Inside the unzipped folder, find <b>fastkart-api</b> folder
+                  </li>
+                  <li>Upload the <b>fastkart-api</b> folder to the server at the path /var/www/fastkart/.
+                  </li>
+                </ol>
+
+                <h4 class="sub-title mt-4">9. Enable multiple sites on nginx</h4>
+
+                <P style="padding-left: 16px">
+                  - To begin, configure server and establish a Reverse Proxy to host multiple sites on the same server.
+                  Start by disabling the default settings.
+                </P>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#rnFolder" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="rnFolder">sudo rm /etc/nginx/sites-enabled/default</code></pre>
+                </div>
+
+                <h4 class="sub-title mt-4">10. Create Nginx domain</h4>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#newDomain" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="newDomain">sudo touch /etc/nginx/sites-available/fastkart</code></pre>
+                </div>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#editDomain" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="editDomain">sudo nano /etc/nginx/sites-available/fastkart</code></pre>
+                </div>
+
+                <P>
+                  - Include the following Nginx configuration in your edited file:
+                </P>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#configNgixServer"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="configNgixServer">server {
+  listen 80;
+  server_name your-domain.com;
+
+  client_max_body_size 256M;
+
+  add_header X-Frame-Options "SAMEORIGIN";
+  add_header X-XSS-Protection "1; mode=block";
+  add_header X-Content-Type-Options "nosniff";
+
+  index index.html index.htm;
+
+  charset utf-8;
+
+    # For API
+    location /api {
+      alias /var/www/fastkart/fastkart-api/public;
+      try_files $uri $uri/ @api;
+
+      location ~ \.php$ {
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $request_filename;
+        fastcgi_pass unix:/run/php/php8.2-fpm.sock;
+      }
+    }
+
+    # For Fastkart Frontend
+   location /{
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+
+    # For Fastkart Admin
+    location /admin{
+        proxy_pass http://localhost:8081/admin;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+
+    location @api {
+      rewrite /api/(.*)$ /index.php?/$1 last;
+    }
+
+    error_page 404 /index.html;
+
+    location ~ \.php$ {
+      fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;
+      fastcgi_index index.php;
+      fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+      include fastcgi_params;
+    }
+
+    location ~ /\.(?!well-known).* {
+      deny all;
+    }
+  }</code></pre>
+                </div>
+
+                <div class="warning-block mt-4">
+                  <p>
+                    Ensure to replace <b>"your-domain.com"</b> with the <b>actual domain name</b> you are using.
+                  </p>
+
+                </div>
+
+                <p class="mt-4">
+                  - After making your changes, press CTRL and X, then confirm by pressing Y and ENTER to save and close
+                  the file.
+                </p>
+
+                <p class="mt-4">
+                  - To enable the configuration, enable it with an easy command.
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#enableSite" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="enableSite">sudo ln -s /etc/nginx/sites-available/fastkart /etc/nginx/sites-enabled/</code></pre>
+                </div>
+
+                <p class="mt-2">
+                  Please make sure there are no mistakes in the configuration by typing:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#verifyNginx" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="verifyNginx">sudo nginx -t</code></pre>
+                </div>
+
+                <p>
+                  Then restart Nginx server.
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#restartNginx" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="restartNginx">sudo systemctl restart nginx</code></pre>
+                </div>
+
+                <h4 class="sub-title mt-4">11. Secure Nginx Server</h4>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#certbotNginx" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="certbotNginx">sudo apt install certbot python3-certbot-nginx</code></pre>
+                </div>
+                <p>
+                  You need to modify its settings to permit HTTPS traffic. Fortunately, Nginx creates specific profiles
+                  in ufw during installation.
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#fwStatusNginx" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="u
+                        fwStatusNginx">sudo ufw status</code></pre>
+                </div>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#NginxFull" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="NginxFull">sudo ufw allow 'Nginx Full'</code></pre>
+                </div>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#NginxDeleteAllow"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="NginxDeleteAllow">sudo ufw delete allow 'Nginx HTTP'</code></pre>
+                </div>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#NginxDomainAllow"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="NginxDomainAllow">sudo certbot --nginx -d your-domain</code></pre>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body ul-body steps-ul">
+                <h4 class="main-sub-title">Install NodeJS</h4>
+                <ul style="margin-left: 15px;">
+                  <h4 class="sub-title mt-4">- Node JS Command:</h4>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cdAptUpdate" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="cdAptUpdate">sudo apt-get update</code></pre>
+                  </div>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cdNodeSource" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="cdNodeSource">curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -</code></pre>
+                  </div>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cdAptUpdate2" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="cdAptUpdate2">sudo apt-get install -y nodejs</code></pre>
+                  </div>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cdAptUpdate3" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="cdAptUpdate3">sudo add-apt-repository ppa:ondrej/php</code></pre>
+                  </div>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cdAptUpdate4" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="cdAptUpdate4">sudo apt update</code></pre>
+                  </div>
+                  <h4 class="sub-title mt-4">- Install NPM</h4>
+                  <p style="padding-left: 16px">To install npm use below command, it will help to install the different
+                    packages and manage their dependencies</p>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cdAptUpdate5" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="cdAptUpdate5">sudo apt install npm</code></pre>
+                  </div>
+                  <h4 class="sub-title mt-4">- Install PM2</h4>
+                  <p style="padding-left: 16px">PM2 is a production process manager for the JavaScript runtime Node.js
+                    applications with a built-in load balancer.Install PM2 from below given commands</p>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cdAptUpdate06"
+                      title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="cdAptUpdate06">npm install pm2 -g                      </code></pre>
+                  </div>
+                  <p style="padding-left: 16px">Here, we configure PM2 for automatic startup using systemd by copying
+                    and pasting the setup command.</p>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cdAptUpdate6" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="cdAptUpdate6">pm2 startup systemd                      </code></pre>
+                  </div>
+              </div>
+            </div>
+
+            <div class="card" id="laravelInstall">
+              <div class="card-body ul-body steps-ul">
+                <h4 class="main-sub-title mt-0" id="fastkartSetuplaravel">Installing Fastkart API</h4>
+                <h4 class="mt-4">
+                  1. Initially, navigate to the <b>fastkart-api</b> directory, and change the file named .env.example as
+                  .env.
+                </h4>
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cdFastkartAPI" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="cdFastkartAPI">cd /var/www/fastkart/fastkart-api</code></pre>
+                </div>
+
+                <p style="padding-left: 16px">
+                  - Add values to the below keys in the <strong> .env </strong> file using nano command
+
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#editEnv" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre class="language-html"><code class="language-html" id="editEnv">nano .env</code></pre>
+                  </div>
+
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cpEnv" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre class="language-html"><code class="language-html" id="cpEnv">cp .env.example .env</code></pre>
+                  </div>
+
+                </p>
+
+                <div class="dark-block mb-3">
+                  <p>If you're running your Laravel project on your own computer (localhost), make sure to use localhost with current running port and put in APP_URL. as a given example below</p>
+                  <p>
+                    If you want to install on live server, you need to add your live server api url like a APP_URL=http://api.your-domain.com.
+                  </p>
+                </div>
+                <div class="code-box-copy" style="padding-left: 16px">
+<pre class="language-html"><code class="language-html">APP_URL=http://localhost:8000
+DB_DATABASE=database_name
+DB_USERNAME=database_username
+DB_PASSWORD=database_password</code></pre>
+                </div>
+                <div class="warning-block mb-3">
+                  <b>Note:</b> Make sure to set the <b>APP_URL</b> correctly. If you don't, features like uploading, downloading, and showing images won't work properly. Be sure to double-check and make sure everything is set up correctly.
+                </div>
+                <h4 class="mt-4">
+                  2. Install Required Dependencies:
+                </h4>
+
+                <p style="padding-left: 16px">
+                  - In the <b>fastkart-api</b> folder, run following command in the terminal to install the required
+                  dependencies.
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#composerInstall"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="composerInstall">composer install </code></pre>
+                </div>
+
+
+                <h4 class="mt-4" id="installDependencies">
+                  3. Generate Laravel APP KEY:
+                </h4>
+
+                <p style="padding-left: 16px">
+                  - Once the necessary dependencies are successfully installed, run following command to generate
+                  laravel app key.
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#keyGenerate" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="keyGenerate">php artisan key:generate</code></pre>
+                </div>
+
+                <h4 class="mt-4">
+                  4. Installation of Fastkart:
+                </h4>
+                <p class="warning-block mb-2 mt-2">
+                  <strong>Note:</strong>
+                  If you've previously run following command or migrated tables, be aware of the fact that it will erase
+                  all of your data.
+                </p>
+
+                <p style="padding-left: 16px">
+                  - Then, run following command to install fastkart database table.
+                </p>
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#fastkartInstall"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="fastkartInstall">php artisan fastkart:install</code></pre>
+                </div>
+                <p>
+                  During the installation, you'll be asked two questions:
+                </p>
+                <p style="padding-left: 16px">
+                  1. Do you want to continue with the installation? If you say yes, Fastkart will continue to install.
+                </p>
+                <p style="padding-left: 16px">
+                  2. Do you want to import in sample data? If you say yes, the sample data will be imported. If you say
+                  no, the installation will go ahead without adding any sample data.
+                </p>
+
+                <h4 class="mt-4">
+                  5. Link Storage folder to Public folder:
+                </h4>
+                <p style="padding-left: 16px">
+                  - Then, run following command to store and display images correctly.
+                </p>
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#runProject" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="runProject">php artisan storage:link</code></pre>
+                </div>
+
+                <h4 class="mt-4">
+                  6. Run Laravel API:
+                </h4>
+                <p style="padding-left: 16px">
+                  - Once you've finished all the previous steps, you can run the Laravel API by adding following
+                  command.
+                </p>
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#runProject" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="runProject">php artisan serve</code></pre>
+                </div>
+
+                <p style="padding-left: 16px">
+                  - When you start your Laravel API project, it typically runs on the default port, you can access it by
+                  opening <a target="_blank" href="http://127.0.0.1:8000/"> 127.0.0.1:8000 </a> in your web browser.
+                </p>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+                        border-radius: 5px;
+                        padding: 20px;
+                      " src="assets/images/laravelApi/install-completed.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p>
+                  Congratulations, Fastkart has been successfully installed and configured in your system!🎉
+                </p>
+
+                <p>For Postman API Documentation <a href="https://documenter.getpostman.com/view/23370132/2s8YmNPhch"
+                    target="_blank">Click Here</a>.</p>
+
+                <div class="dark-block mt-3">
+                  <p>
+                    Once you've finished installing the Fastkart API, the next step is to set up the FastKart NextJs
+                    frontend.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body ul-body steps-ul">
+                <h4 class="main-sub-title">Create Build and Run the Fastkart Frontend</h4>
+                <ul style="margin-left: 15px;">
+                  <p>Go to <b>fastkart-frontend</b> folder in <b>fastkart-laravel-nextjs-package</b></p>
+                  <p class="mt-4">- Build Command:</p>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#buildCmd" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre class="language-html"><code class="language-html" id="buildCmd">npm run build</code></pre>
+                  </div>
+                  <p class="mt-4">- To Run the Fastkart Frontend:</p>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#buildCmd" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="buildCmd">pm2 start npm --name "fastkart-frontend" -- start</code></pre>
+                  </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body ul-body steps-ul">
+                <h4 class="main-sub-title">Create Build and Run the Fastkart Admin</h4>
+                <ul style="margin-left: 15px;">
+                  <p>Go to <b>fastkart-admin</b> folder in <b>fastkart-laravel-nextjs-package</b></p>
+                  <p class="mt-4">- Build Command:</p>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#buildCmd" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre class="language-html"><code class="language-html" id="buildCmd">npm run build</code></pre>
+                  </div>
+                  <p class="mt-4">- To Run the Fastkart Admin:</p>
+                  <div class="code-box-copy">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#buildCmd" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre
+                      class="language-html"><code class="language-html" id="buildCmd">pm2 start npm --name "fastkart-admin" -- start</code></pre>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row footer-theme partition-f">
+        <div class="col-12">Copyright 2025 © Fastkart theme by pixelstrap</div>
+      </div>
+    </div>
+  </footer>
+  <div class="bg-overlay"></div>
+</body>
+
+<!-- latest jquery-->
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<!-- Bootstrap js-->
+<script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+<!-- popover js-->
+<!-- code copy box js-->
+<script src="assets/js/prism/prism.min.js"></script>
+<script src="assets/js/clipboard/clipboard.min.js"></script>
+<script src="assets/js/custom-card/custom-card.js"></script>
+
+<!-- feather icon js-->
+<script src="assets/js/icons/feather-icon/feather.min.js"></script>
+<script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+<script src="assets/js/document/main.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>

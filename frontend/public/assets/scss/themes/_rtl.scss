@@ -1,0 +1,79 @@
+/**=====================
+    RTL scss
+==========================**/
+body[dir="rtl"] {
+    direction: rtl;
+
+    @media (min-width: 1400px) {
+        .offset-xxl-2 {
+            margin-right: 16.66666667%;
+            margin-left: unset;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .offset-md-1 {
+            margin-right: 8.33333333%;
+            margin-left: unset;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .me-md-3 {
+            margin-right: unset !important;
+            margin-left: 1rem !important;
+        }
+    }
+
+    .ms-1 {
+        margin-left: unset !important;
+        margin-right: 0.25rem !important;
+    }
+
+    .text-end {
+        text-align: left !important;
+    }
+
+    .ms-3 {
+        margin-left: unset !important;
+        margin-right: 1rem !important;
+    }
+
+    .ms-auto {
+        margin-right: auto !important;
+        margin-left: unset !important;
+    }
+
+    .slick-slider {
+        direction: ltr;
+
+        .slick-list {
+            .slick-slide {
+
+                >div,
+                >ul {
+                    direction: rtl;
+                }
+            }
+        }
+    }
+
+    ul {
+        padding-right: 0;
+    }
+
+    .me-1 {
+        margin-right: unset;
+        margin-left: 0.25rem !important;
+    }
+
+    .ms-2 {
+        margin-left: unset !important;
+        margin-right: 0.5rem !important;
+    }
+
+    .me-2 {
+        margin-right: unset !important;
+        margin-left: 0.5rem !important;
+    }
+}

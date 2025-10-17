@@ -1,0 +1,47 @@
+/**=====================
+     Label scss
+==========================**/
+.label-flex {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    label {
+        margin: -2px 0;
+        background-color: var(--theme-color);
+        color: #ffffff;
+        padding: 4px calc(7px + (10 - 7) * ((100vw - 320px) / (1920 - 320)));
+        border-radius: 4px;
+        font-size: calc(13px + (14 - 13) * ((100vw - 320px) / (1920 - 320)));
+    }
+
+    .wishlist {
+        font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1920 - 320)));
+        color: $content-color;
+        line-height: 1;
+        margin-left: auto;
+
+        &:first-child {
+            &:active {
+                background-color: transparent;
+                border-color: transparent;
+                color: $content-color;
+            }
+        }
+
+        &:hover {
+            background-color: transparent;
+            color: $content-color;
+        }
+
+        body[dir="rtl"] & {
+            margin-left: unset;
+            margin-right: auto;
+        }
+    }
+}

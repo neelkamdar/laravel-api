@@ -1,0 +1,268 @@
+/* =====================
+    Newsletter scss 
+ ========================== */
+.newsletter-section {
+    .newsletter-box {
+        border-radius: 10px;
+        position: relative;
+        object-fit: cover;
+        overflow: hidden;
+
+        &-3 {
+            &:after {
+                @include pos;
+                @include pseudowh;
+                top: 0;
+                left: 0;
+                background-image: url("../../images/vegetable/newsletter/2.jpg");
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                display: block;
+                z-index: -1;
+            }
+        }
+
+        .newsletter-contain {
+            body[dir="rtl"] & {
+                transform: scaleX(-1);
+            }
+
+            .newsletter-detail {
+                body[dir="rtl"] & {
+                    transform: scaleX(-1);
+                }
+
+                h2 {
+                    font-weight: 700;
+                    color: $white;
+                    margin-bottom: 10px;
+                }
+
+                h5 {
+                    font-weight: 600;
+                    color: #ffbc5d;
+                    margin-bottom: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320)));
+                    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1920 - 320)));
+                }
+
+                .input-box,
+                .newsletter-form {
+                    position: relative;
+
+                    ::placeholder {
+                        font-size: 14px;
+                        color: $content-color;
+
+                        @include max(360.98px) {
+                            padding-left: 0;
+                        }
+                    }
+
+                    input {
+                        width: 100%;
+                        height: calc(41px + (52 - 41) * ((100vw - 320px) / (1920 - 320)));
+                        border-radius: 5px;
+                        border: none;
+                        padding-left: 53px;
+                        padding-right: 147px;
+                        color: $title-color;
+
+                        body[dir="rtl"] & {
+                            padding-left: 147px;
+                            padding-right: 53px;
+                        }
+
+                        @include max(575.98px) {
+                            padding-right: 42px;
+                            padding-left: calc(12px + 3 * (100vw - 320px) / 1600);
+
+                            body[dir="rtl"] & {
+                                padding-right: calc(12px + 3 * (100vw - 320px) / 1600);
+                                padding-left: 42px;
+                            }
+                        }
+
+                        @include max(360.98px) {
+                            padding-left: 12px;
+
+                            body[dir="rtl"] & {
+                                padding-left: calc(12px + 3 * (100vw - 320px) / 1600);
+                                padding-right: 12px;
+                            }
+                        }
+                    }
+
+                    .mail-icon {
+                        @include center(vertical);
+                        @include flex_common;
+                        position: absolute;
+                        left: 8px;
+                        width: 37px;
+                        height: calc(100% - 14px);
+
+                        body[dir="rtl"] & {
+                            left: unset;
+                            right: 8px;
+                        }
+
+                        @include max(480.98px) {
+                            display: none;
+                        }
+
+                        &::before {
+                            @include pos;
+                            @include pseudowh;
+                            opacity: 0.1;
+                            top: 0;
+                            left: 0;
+                            z-index: -1;
+                            background-color: var(--theme-color);
+
+                            body[dir="rtl"] & {
+                                left: unset;
+                                right: 0;
+                            }
+                        }
+
+                        svg {
+                            font-size: 19px;
+                            color: var(--theme-color);
+                        }
+                    }
+
+                    .sub-btn {
+                        @include center(vertical);
+                        background-color: $danger-color;
+                        position: absolute;
+                        right: 3px;
+                        border-radius: 3px;
+                        border: none;
+                        padding: calc(10px + (12 - 10) * ((100vw - 320px) / (1920 - 320))) calc(8px + (21 - 8) * ((100vw - 320px) / (1920 - 320)));
+                        font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+                        color: $white;
+                        font-weight: 500;
+                        display: flex;
+                        align-items: center;
+
+                        body[dir="rtl"] & {
+                            right: unset;
+                            left: 3px;
+                        }
+
+                        svg {
+                            color: #ffffff;
+                            margin-left: 6px;
+                            position: relative;
+                            inset: unset;
+                            transform: unset;
+                            background-color: transparent;
+                            font-size: 18px;
+                            line-height: 1;
+
+                            body[dir="rtl"] & {
+                                margin-left: unset;
+                                margin-right: 6px;
+                            }
+
+                            @include max(575.98px) {
+                                margin-left: 0;
+
+                                body[dir="rtl"] & {
+                                    margin-left: unset;
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.newsletter-section-2 {
+        .newsletter-box {
+            border-radius: 10px;
+            overflow: hidden;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+            .newsletter-detail {
+                @include pseudowh;
+                padding: calc(20px + (130 - 20) * ((100vw - 320px) / (1920 - 320)));
+                z-index: 1;
+
+                h2 {
+                    font-size: calc(18px + (36 - 18) * ((100vw - 320px) / (1920 - 320)));
+                    margin-bottom: 10px;
+                }
+
+                h4,
+                h5 {
+                    margin-bottom: 8px;
+                    font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+                    line-height: 1.3;
+                    font-weight: 300;
+                }
+
+                .newsletter-form {
+                    input {
+                        color: #ffffff;
+                        background-color: transparent;
+                        padding: calc(8px + 4*(100vw - 320px) / 1600);
+                        border: 1px solid #ced4da;
+                        height: auto;
+                        font-size: calc(15px + (16 - 15) * ((100vw - 320px) / (1920 - 320)));
+
+                        &::placeholder {
+                            color: #ffffff;
+                            font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
+                        }
+                    }
+
+                    .sub-btn {
+                        color: #ffffff;
+                    }
+                }
+
+                .submit-button {
+                    position: relative;
+                    inset: unset;
+                    transform: unset;
+                    border: 1px solid transparent;
+
+                    svg {
+                        display: none;
+                    }
+                }
+
+                .mail-icon {
+                    display: none !important;
+                }
+            }
+
+            .shape-box {
+                @include pseudowh;
+                @include flex_common;
+                position: relative;
+                z-index: 1;
+                text-align: center;
+
+                &:after {
+                    @include pos;
+                    @include pseudowh;
+                    background-image: url(../../images/veg-3/shape/circle.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                    animation: rounded infinite 30s linear;
+                    right: 0;
+                    top: 0;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}

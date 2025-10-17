@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fastkart - NextJs Document" />
+  <meta name="keywords" content="Fastkart - NextJs Document" />
+  <meta name="author" content="pixelstrap" />
+  <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <title>Fastkart - Next Js Document</title>
+  <!-- Google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/prism.css">
+  <!-- Font Awesome-->
+  <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css" />
+  <!-- Feather icon-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css" />
+  <!-- Remix icon-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/remixicon.css" />
+  <!-- animate-->
+  <link rel="stylesheet" type="text/css" href="assets/css/_prism-custom.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css" />
+  <!-- Bootstrap css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css" />
+  <!-- App css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- tap on top starts-->
+  <a href="javascript:void(0)" class="sidebar-overlay"></a>
+  <div class="tap-top">
+    <i data-feather="chevrons-up"></i>
+    <p>Top</p>
+  </div>
+  <!-- tap on tap ends-->
+  <div>
+    <div class="home-section">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container custom-container">
+          <div class="main-menu">
+            <a class="navbar-brand" href="index.html"> <img src="assets/images/logo/logo.png" alt="" /></a>
+            <div>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><i class="fa fa-bars"> </i></button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav menu">
+                  <li class="nav-item active"><a class="nav-link" href="https://themeforest.net/user/pixelstrap"
+                      role="button" aria-haspopup="true" aria-expanded="false" target="_blank">Purchase</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://support.pixelstrap.com/" role="button"
+                      aria-haspopup="true" aria-expanded="false" target="_blank">Support</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://landing.pixelstrap.net/laravel/fastkart/"
+                      role="button" aria-haspopup="true" aria-expanded="false" target="_blank">Demo</a></li>
+                  <li class="nav-item"><a class="nav-link" href="features.html" role="button" aria-haspopup="true"
+                      aria-expanded="false" target="_blank">Feature </a></li>
+                </ul>
+              </div>
+            </div>
+            <ul class="nav-right">
+
+              <li>
+                <div class="btn-group"><a class="decrease btn btn-doc" href="#" title="Decrease font size">A-</a><a
+                    class="reset btn btn-doc" href="#" title="Default font size">A</a><a class="increase btn btn-doc"
+                    href="#" title="Increase font size">A+</a></div>
+              </li>
+              <li>
+                <a class="btn btn-light mode" href="#" title="Dark"><i class="fa fa-moon-o"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container custom-container">
+        <div class="document">
+          Laravel + Next Js <span> Documentation</span>
+        </div>
+        <div class="top-heading">
+          <h2>Fastkart offers stunning and one-of-a-kind website demos tailored to your grocery, bakery, and online
+            store needs. With Fastkart, you'll find everything you require to craft the ideal website for your business.
+            Fastkart - your all-in-one solution!</h2>
+        </div>
+      </div>
+
+    </div>
+    <div class="right-navbar" id="rightNavbar">
+      <ul class="dropdown-nav" id="list-example">
+        <li class="dropdown-item">
+          <a class="dropdown-link" href="#general">General</a>
+        </li>
+        <li class="dropdown-item">
+          <a class="dropdown-link" href="#header">Header</a>
+        </li>
+        <li class="dropdown-item">
+          <a class="dropdown-link" href="#footer">Footer</a>
+        </li>
+        <li class="dropdown-item">
+          <a class="dropdown-link" href="#product">Product</a>
+        </li>
+        <li class="dropdown-item">
+          <a class="dropdown-link" href="#blog">Blog</a>
+        </li>
+        <li class="dropdown-item">
+          <a class="dropdown-link" href="#error-page">Error page</a>
+        </li>
+        <li class="dropdown-item">
+          <a class="dropdown-link" href="#seo">SEO</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container custom-container" id="mainRightNavbar">
+    <div class="document-main">
+      <div class="left-sidebar">
+        <aside>
+          <button class="btn button-close">
+            <span>Close</span>
+            <i data-feather="x"></i>
+          </button>
+          <ul class="list-unstyled nav-sidebar doc-nav">
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="index.html">Introduction</a></div>
+            </li>
+
+            <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="true">Getting Started
+                    <i class="ri-arrow-down-s-line collapse-icon"></i>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul class="dropdown-nav">
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="laravel-requirment.html">Prerequisites</a></div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="server-config.html">Localhost Configuration</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="nextjs-config.html">Install NodeJs </a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample2">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne2" aria-expanded="true">Fastkart Installation
+                                <i class="ri-arrow-down-s-line collapse-icon"></i>
+                              </button>
+                            </h2>
+                            <div id="flush-collapseOne2" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample2">
+                              <div class="accordion-body">
+                                <ul class="dropdown-nav">
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="overview.html">Overview</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="laravel-installer.html">Fastkart
+                                        Laravel API (GUI)</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="laravel-install.html">Fastkart Laravel
+                                        API (CLI)</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="nextjs-frontend.html">Fastkart NextJs
+                                        Frontend</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="nextjs-admin.html">Fastkart NextJs
+                                        Admin</a></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample5">
+              <div class="accordion-item ">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne5" aria-expanded="true">Deployment
+                    <i class="ri-arrow-down-s-line collapse-icon"></i>
+                  </button>
+
+                </h2>
+                <div id="flush-collapseOne5" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample5">
+                  <div class="accordion-body">
+                    <ul class="dropdown-nav">
+                      <li class="nav-item ">
+                        <div class="title"><a class="nav-link" href="deployment-overview.html">Overview</a></div>
+                      </li>
+                      <li class="nav-item ">
+                        <div class="title"><a class="nav-link" href="cpanel-deployment-gui.html">cPanel Server Laravel
+                            (GUI)</a>
+                        </div>
+                      </li>
+                      <li class="nav-item ">
+                        <div class="title"><a class="nav-link " href="cpanel-deployment.html">cPanel Server Laravel
+                            (CLI)</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample20">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne21" aria-expanded="true">Virtual Private Server (VPS)
+                                <i class="ri-arrow-down-s-line collapse-icon"></i>
+                              </button>
+                            </h2>
+                            <div id="flush-collapseOne21" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample20">
+                              <div class="accordion-body">
+                                <ul class="dropdown-nav">
+
+                                  <li class="nav-item">
+                                    <div class="accordion accordion-flush sidebar-accordion"
+                                      id="accordionFlushExample21">
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapse" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne23">Create Virtual Machine
+                                            <i class="ri-arrow-down-s-line collapse-icon"></i>
+                                          </button>
+                                        </h2>
+                                        <div id="flush-collapseOne23" class="accordion-collapse collapse"
+                                          data-bs-parent="#accordionFlushExample21">
+                                          <div class="accordion-body">
+                                            <ul class="dropdown-nav">
+                                              <li class="nav-item">
+                                                <div class="title"><a class="nav-link" href="aws-ec2.html">AWS</a></div>
+                                              </li>
+                                              <li class="nav-item">
+                                                <div class="title"><a class="nav-link" href="digital-ocean.html">Digital
+                                                    Ocean</a></div>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="lamp-stack-install.html">Apache Server
+                                        (LAMP)</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="lemp-stack-install.html">Nginx
+                                        Server(LEMP)</a></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="vercel.html">Vercel</a></div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="github-setup.html">Update Old To New Version</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="fonts.html">Fonts</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="usecontext.html">useContext Hook</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="routing.html">Routing</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="theme-layouts.html">Theme Layout</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="multi-vendor.html">Multi Vendors</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="admin.html">Admin</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="gmail-configuration.html">Gmail Configuration</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="notice.html">Notice</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="pos.html">POS</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="manage-orders.html">Manage Orders</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="refund.html">Refund</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="review.html">Review</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="question-answer.html">Q&A</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="theme-types.html">Theme Type</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="home-page.html">Home Page</a></div>
+            </li> <li class="nav-item">
+              <div class="title"><a class="nav-link" href="menu.html">Menu</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="mode.html">Mode</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="currency.html">Currency</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="multi-language.html">Multi Language</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="role.html">Role</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="user.html">User</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="coupon.html">Coupon</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="category.html">Category</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="store.html">Store</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="product.html">Product</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="faq.html">Faqs</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="wallet.html">Wallet</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="setting.html">Settings</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="theme-option.html">Theme Option</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title">
+                <a class="nav-link" href="payment-gateway.html">Payment Gateway</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="title">
+                <a href="features.html" class="nav-link px-0"> Features </a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <div class="title">
+                <a class="nav-link" href="thankyou.html">Thank you</a>
+              </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="content">
+        <div class="row">
+          <div class="col-sm-12">
+            <button class="btn sidebar-button">Menu</button>
+            <h4 class="main-title mb-4"><img src="assets/images/favicon.png" alt=""> Theme Options</h4>
+          </div>
+          <div class="col-12">
+            <p style="
+                margin-bottom: 20px; ">Navigate to the "Store Front" section, click "Theme Option," enter user details:
+            </p>
+
+            <h4 class="sub-title mt-0" id="general">General</h4>
+            <div class="card">
+              <div class="card-body">
+
+                <h4 class="main-sub-title mt-0" id="general">Set Header Logo, Footer Logo And Favicon Icon</h4>
+                <p>Then, make changes in the Theme Option</p>
+                <p>Open Admin panel click <b>Store Front => Theme Option. Click general tab</b></p>
+                <p>It would be similar for Header Logo, Footer Logo And Favicon Icon</p>
+
+                <img
+                  style="margin-top: 10px; margin-bottom: 10px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/upload-logo.gif" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Change Site Title And Site Tagline</h4>
+                <img
+                  style="margin-top: 10px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/site-title-1.png" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Cart Style</h4>
+                <p>Then, make changes in the option > general > cart_style</p>
+                <p>2 option "cart_sidebar" and "mini_cart"</p>
+                <img
+                  style="margin-top: 10px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/cart-1.png" class="img-fluid">
+                <h4 class="main-sub-title mt-4">Cart Sidebar</h4>
+                <img
+                  style=" margin-bottom: 10px; margin-top: 8px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/sidebar-cart.png" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Cart Mini</h4>
+                <img
+                  style="margin-bottom: 10px; margin-top: 8px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/mini_cart.png" class="img-fluid">
+
+
+
+                <h4 class="main-sub-title mt-4">Back To Top</h4>
+                <p>Then, make changes in the option > general > back_to_top_enable</p>
+                <img
+                  style="margin-top: 0; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/back-to-top-1.png" class="img-fluid">
+                <img
+                  style="margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/back-to-top.png" class="img-fluid">
+
+              </div>
+            </div>
+
+            <h4 class="sub-title mt-0" id="header">Header</h4>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="main-sub-title mt-0">Header options</h4>
+                <p>Then, make changes in the option > header > header_options</p>
+                <p>You can choose any of the 4 Styles:</p>
+                <ol>
+                  <li>"basic_header"</li>
+                  <li>"classic_header"</li>
+                  <li>"standard_header"</li>
+                  <li>"minimal_header"</li>
+                </ol>
+                <img
+                  style="margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/header-1.png" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Basic Header</h4>
+                <img style="margin-bottom: 15px; margin-top: 10px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+                  !important; border-radius: 5px" src="assets/images/themeOption/header/1.png" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Classic Header</h4>
+                <img
+                  style="margin-bottom: 15px; margin-top: 10px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/header/2.png" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Standard Header</h4>
+                <img
+                  style="margin-bottom: 15px; margin-top: 10px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/header/3.png" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Minimal Header</h4>
+                <img
+                  style="margin-bottom: 15px; margin-top: 10px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/header/4.png" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Sticky header</h4>
+                <p>Then, make changes in the option > header > sticky_header_enable</p>
+                <img
+                  style="margin-bottom: 15px; margin-top: 10px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/sticky-header-1.png" class="img-fluid">
+
+                <img
+                  style="margin-bottom: 15px; margin-top: 0; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/sticky-header.gif" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Page Top Bar Configuration</h4>
+                <p>Then, make changes in the option > header > page_top_bar_enable</p>
+                <img
+                  style="margin-top: 15px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/top-bar-admin.png" class="img-fluid">
+
+                <img
+                  style="margin-top: 0; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/top-bar.gif" class="img-fluid">
+
+
+                <h4 class="main-sub-title mt-4">Change Support Number</h4>
+                <p>Then, make changes in the option > header > support_number</p>
+
+                <img
+                  style="margin-top: 15px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/number-admin.png" class="img-fluid">
+
+                <img
+                  style="margin-top: 0; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/number.png" class="img-fluid">
+
+
+                <h4 class="main-sub-title mt-4">Today Deals</h4>
+                <p>Then, make changes in the option > header > today_deals</p>
+                <img
+                  style="margin-top: 15px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/deals-admin.png" class="img-fluid">
+                <img
+                  style="margin-top: 0; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/deals.png" class="img-fluid">
+
+                <p class="warning-block mt-3">
+                  <b>Note: </b>
+                  *Choose products to display in the deal popup on the header. Select up to 3 recommended products.
+                </p>
+
+                <h4 class="main-sub-title mt-4">Select Categories</h4>
+                <p>Then, make changes in the option > header > category_ids</p>
+
+                <img
+                  style="margin-top: 15px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/category-admin.png" class="img-fluid">
+
+                <img
+                  style="margin-top: 0; margin-bottom: 0; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/category.png" class="img-fluid">
+
+              </div>
+            </div>
+            <h4 class="sub-title mt-0" id="footer">Footer</h4>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="main-sub-title mt-0">Set Default Footer Style</h4>
+                <p>Then, make changes in the option > footer > footer_style</p>
+                <p>You can choose any of the 2 Modes "light_mode" and "dark_mode"</p>
+                <img
+                  style="margin-top: 10px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/footer-style-admin.png" class="img-fluid">
+                <h4 class="main-sub-title mt-4">Footer light</h4>
+                <img
+                  style="margin-top: 10px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/footer-light.png" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Footer Dark</h4>
+                <img
+                  style="margin-top: 10px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/footer-dark.png" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Footer About</h4>
+                <img
+                  style="margin-top: 10px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/footer-about-admin.png" class="img-fluid">
+
+                <code><b>"footer_about": "Discover convenience redefined at our ...",</b></code>
+                <p>You can make changes in the Footer Description.
+                </p>
+                <code><b>"about_address": "1418 Riverwood Drive, CA 96052, US",</b></code>
+                <p>You can make changes in the Footer Address.
+
+                </p>
+                <code><b>"about_email": "support@fastkart.com",</b></code>
+                <p>You can make changes in the Footer Email Address.
+
+                </p>
+
+                <h4 class="main-sub-title mt-4">Select Footer Link</h4>
+                <img
+                  style="margin-top: 10px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/links-admin.png" class="img-fluid">
+
+                <p class="warning-block mt-3">
+                  <b>Warning: </b> For the new page, you have to create component and routing! and add object in Useful
+                  link dropdown. Same as Help center.
+                </p>
+
+                <h4 class="main-sub-title mt-4">Contact us</h4>
+                <p>Then, make changes in the option > footer </p>
+                <p>You will be able to make changes in the values in the below keys.</p>
+                <img
+                  style="margin-top: 10px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/footer-about-admin.png" class="img-fluid">
+                <img
+                  style="margin-top: 10px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/footer-about-us.png" class="img-fluid">
+
+                <h4 class="main-sub-title mt-4">Footer Bottom</h4>
+                <img
+                  style="margin-top: 10px; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/footer-bottom-admin.png" class="img-fluid">
+                <img
+                  style="margin-top: 0; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/footer-bottom.png" class="img-fluid">
+
+                <p><code><b>Show Social Media :</code> </b> If you enable this, the social Media content will be
+                  visible.</p>
+                <p></p>
+                <p><code><b>Facebook :</code> </b> Enter your Facebook account link</p>
+                <p></p>
+                <p><code><b>Instagram :</code> </b> Enter your Instagram account link</p>
+                <p></p>
+                <p><code><b>Twitter :</code> </b> Enter your Twitter account link</p>
+                <p></p>
+                <p><code><b>Pinterest :</code> </b> Enter your Pinterest account link</p>
+                <p></p>
+                <p><code><b>Footer Copyright :</code> </b> If you enable this, the copyright content will be visible.
+                </p>
+                <p></p>
+                <p><code><b>Copyright Text :</code> </b> You can make changes in the Copyright Content.</p>
+                <p></p>
+
+              </div>
+            </div>
+            <h4 class="sub-title mt-2" id="collection">Collection</h4>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="main-sub-title mt-0">Set Default Collection Style</h4>
+                <p>Then, make changes in the option > collection > collection_layout </p>
+                <img
+                  style="margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                  src="assets/images/themeOption/collection-admin.png" class="img-fluid">
+
+                <div class="row">
+                  <div class="col-6">
+                    <p>1) Collection Left Sidebar</p>
+                    <p>2) Collection Right Sidebar</p>
+                    <p>3) Collection No Sidebar</p>
+                    <p>4) Collection 3 Grid</p>
+                    <p>5) Collection 4 Grid</p>
+                    <p>6) Collection 5 Grid</p>
+                  </div>
+                  <div class="col-6">
+                    <p>7) Lection List View</p>
+                    <p>8) Category slider</p>
+                    <p>9) Category sidebar</p>
+                    <p>10) Category banner</p>
+                    <p>11) Offcanvas Filter</p>
+                  </div>
+                </div>
+
+                <div class="code-desc mt-3">
+                  <p><code><b>Collection Page Layout : </b></code></p>
+                  <p><b>Banner Image : </b>Can be used in all Collection Style excluding these 3:
+                    <b> Category slider, Category sidebar, and Offcanvas Filter </b></p>
+
+                </div>
+
+                <img style="margin-top: 10px; margin-bottom: 0; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+                  border-radius: 5px" src="assets/images/themeOption/collection.gif" class="img-fluid">
+
+
+              </div>
+            </div>
+          </div>
+          <h4 class="sub-title mt-2" id="product">Product</h4>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="main-sub-title mt-0">Set Default Product Page Layout</h4>
+              <p>Then, make changes in the option > product > product_layout </p>
+
+              <p>1) Product Image</p>
+              <p>2) Product thumbnail</p>
+              <p>3) Product Slider</p>
+              <p>4) Product Sticky</p>
+              <p>5) Product Tabs</p>
+              <p>6) Product Accordion</p>
+              <img style="margin-top: 10px ;margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+                !important; border-radius: 5px" src="assets/images/themeOption/product-layout.gif" class="img-fluid">
+
+
+              <div class="code-desc">
+                <code><b>Trending Product : </b></code>
+                <p>Enabling this will showcase the product in the sidebar of the product page as a trending item.</p>
+              </div>
+              <div class="code-desc">
+                <code><b>Banner Status : </b> </code>
+                <p>Enabling this will showcase the banner in the sidebar of the product page.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Banner Image :</b></code>
+                <p>Select Banner</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Safe Checkout : </b></code>
+                <p>Enabling this will showcase the Safe checkout image in the product page</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Safe Checkout Image : </b></code>
+                <p>A secure checkout image will appear on the product page.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Secure Checkout : </b></code>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Secure Checkout Image : </b></code>
+                <p>Enabling this will showcase the Secure checkout Image image in the product page.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Encourage Order : </b></code>
+                <p>A random order count between 1 and 100 will be displayed to motivate user purchases.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Encourage Max Order Count : </b></code>
+                <p>Specify a number between 1 and 10 to encourage orders.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Encourage View : </b></code>
+                <p>This feature encourages users to view products by presenting engaging content or prompts.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Encourage Max View Count : </b></code>
+                <p>This feature encourages users to view products by presenting engaging content or prompts.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Sticky Checkout : </b></code>
+                <p>Enable to make the Add to Cart and checkout options sticky at the bottom of the product page.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Sticky Product : </b></code>
+                <p>Enable to showcase random products at the bottom of the website.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Social Share :</b></code>
+                <p>Enable this option to allow users to share the product on social media platforms.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Shipping & Return : </b></code>
+                <p>Enable to showcase random products at the bottom of the website.</p>
+              </div>
+            </div>
+          </div>
+          <h4 class="sub-title mt-2" id="blog">Blog</h4>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="main-sub-title mt-0">Set Default Blog Style</h4>
+              <p>Then, make changes in the option > blog > blog_style </p>
+              <img
+                style="margin-top: 10px ;margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                src="assets/images/themeOption/blog-admin.png" class="img-fluid">
+              <div class="code-desc mt-3">
+                <code><b>Blog Style : </b></code>
+                <p>Select blog style</p>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <img style="box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                    src="assets/images/themeOption/blog-grid.png" class="img-fluid">
+                  <p class="text-dark mt-3 text-center">Blog Grid</p>
+                </div>
+                <div class="col-6">
+                  <img style="box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                    src="assets/images/themeOption/blog-list.png" class="img-fluid">
+                  <p class="text-dark mt-3 text-center">Blog List</p>
+                </div>
+              </div>
+
+              <h4 class="main-sub-title mt-4">Set Blog Sidebar Type</h4>
+              <div class="code-desc mt-3">
+                <code><b>Blog Sidebar Type : </b></code>
+                <p>Select blog sidebar style</p>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-4">
+                  <img style="box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                    src="assets/images/themeOption/blog-grid.png" class="img-fluid">
+                  <p class="text-dark mt-3 text-center">Left Sidebar</p>
+                </div>
+                <div class="col-4">
+                  <img style="box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                    src="assets/images/themeOption/blog-list-right.png" class="img-fluid">
+                  <p class="text-dark mt-3 text-center">Right Sidebar</p>
+                </div>
+                <div class="col-4">
+                  <img style="box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                    src="assets/images/themeOption/blog-no-sidebar.png" class="img-fluid">
+                  <p class="text-dark mt-3 text-center">No Sidebar</p>
+                </div>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Blog Author : </b></code>
+                <p>Enable this option to show blog author name.</p>
+              </div>
+
+              <div class="code-desc">
+                <code><b>Read More Link : </b></code>
+                <p>Enable this option to show blog box in Read More button.</p>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="sub-title mt-4" id="error-page">Error Page</h4>
+          <div class="card">
+            <div class="card-body">
+              <img style="margin-top: 0; margin-bottom: 15px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+                border-radius: 5px" src="assets/images/themeOption/error-page-admin.png" class="img-fluid">
+
+              <img style="margin-top: 0; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                src="assets/images/themeOption/error-page.png" class="img-fluid">
+            </div>
+          </div>
+          <h4 class="sub-title mt-4" id="seo">SEO Configuration</h4>
+
+          <div class="card">
+            <div class="card-body">
+              <img style="margin-top: 0; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                src="assets/images/themeOption/seo _35.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row footer-theme partition-f">
+        <div class="col-12">Copyright 2025 © Fastkart theme by pixelstrap</div>
+      </div>
+    </div>
+  </footer>
+  <div class="bg-overlay"></div>
+</body>
+
+<!-- latest jquery-->
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<!-- Bootstrap js-->
+<script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+
+<!-- code copy box js-->
+<script src="assets/js/prism/prism.min.js"></script>
+<script src="assets/js/prism.js"></script>
+<script src="assets/js/clipboard/clipboard.min.js"></script>
+<script src="assets/js/custom-card/custom-card.js"></script>
+
+<!-- sticky top -->
+<script src="assets/js/sticky-top.js"></script>
+
+<!-- popover js-->
+<!-- code copy box js-->
+<!-- feather icon js-->
+<script src="assets/js/icons/feather-icon/feather.min.js"></script>
+<script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+<script src="assets/js/document/main.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>

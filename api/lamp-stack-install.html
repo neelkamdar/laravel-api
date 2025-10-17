@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fastkart - NextJs Document" />
+  <meta name="keywords" content="Fastkart - NextJs Document" />
+  <meta name="author" content="pixelstrap" />
+  <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <title>Fastkart - Next Js Document</title>
+  <!-- Google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/prism.css">
+  <!-- Font Awesome-->
+  <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css" />
+  <!-- Feather icon-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css" />
+  <!-- Remix icon-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/remixicon.css" />
+  <!-- animate-->
+  <link rel="stylesheet" type="text/css" href="assets/css/_prism-custom.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css" />
+  <!-- Bootstrap css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css" />
+  <!-- App css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- tap on top starts-->
+  <a href="javascript:void(0)" class="sidebar-overlay"></a>
+  <div class="tap-top">
+    <i data-feather="chevrons-up"></i>
+    <p>Top</p>
+  </div>
+  <!-- tap on tap ends-->
+  <div>
+    <div class="home-section">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container custom-container">
+          <div class="main-menu">
+            <a class="navbar-brand" href="index.html"> <img src="assets/images/logo/logo.png" alt="" /></a>
+            <div>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><i class="fa fa-bars">
+                </i></button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav menu">
+                  <li class="nav-item active"><a class="nav-link" href="https://themeforest.net/user/pixelstrap"
+                      role="button" aria-haspopup="true" aria-expanded="false" target="_blank">Purchase</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://support.pixelstrap.com/" role="button"
+                      aria-haspopup="true" aria-expanded="false" target="_blank">Support</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://landing.pixelstrap.net/laravel/fastkart/"
+                      role="button" aria-haspopup="true" aria-expanded="false" target="_blank">Demo</a></li>
+                  <li class="nav-item"><a class="nav-link" href="features.html" role="button" aria-haspopup="true"
+                      aria-expanded="false" target="_blank">Feature </a></li>
+                </ul>
+              </div>
+            </div>
+            <ul class="nav-right">
+              <li>
+                <div class="btn-group"><a class="decrease btn btn-doc" href="#" title="Decrease font size">A-</a><a
+                    class="reset btn btn-doc" href="#" title="Default font size">A</a><a class="increase btn btn-doc"
+                    href="#" title="Increase font size">A+</a></div>
+              </li>
+              <li>
+                <a class="btn btn-light mode" href="#" title="Dark"><i class="fa fa-moon-o"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container custom-container">
+        <div class="document">
+          Laravel + Next Js <span> Documentation</span>
+        </div>
+        <div class="top-heading">
+          <h2>
+            Fastkart offers stunning and one-of-a-kind website demos tailored
+            to your grocery, bakery, and online store needs. With Fastkart,
+            you'll find everything you require to craft the ideal website for
+            your business. Fastkart - your all-in-one solution!
+          </h2>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container custom-container" id="mainRightNavbar">
+    <div class="document-main">
+      <div class="left-sidebar">
+        <aside>
+          <button class="btn button-close">
+            <span>Close</span>
+            <i data-feather="x"></i>
+          </button>
+          <ul class="list-unstyled nav-sidebar doc-nav">
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="index.html">Introduction</a></div>
+            </li>
+
+            <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="true">Getting Started
+                    <i class="ri-arrow-down-s-line collapse-icon"></i>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul class="dropdown-nav">
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="laravel-requirment.html">Prerequisites</a></div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="server-config.html">Localhost Configuration</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="nextjs-config.html">Install NodeJs </a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample2">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne2" aria-expanded="true">Fastkart Installation
+                                <i class="ri-arrow-down-s-line collapse-icon"></i>
+                              </button>
+                            </h2>
+                            <div id="flush-collapseOne2" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample2">
+                              <div class="accordion-body">
+                                <ul class="dropdown-nav">
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="overview.html">Overview</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="laravel-installer.html">Fastkart
+                                        Laravel API (GUI)</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="laravel-install.html">Fastkart Laravel
+                                        API (CLI)</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="nextjs-frontend.html">Fastkart NextJs
+                                        Frontend</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="nextjs-admin.html">Fastkart NextJs
+                                        Admin</a></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample5">
+              <div class="accordion-item ">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne5" aria-expanded="true">Deployment
+                    <i class="ri-arrow-down-s-line collapse-icon"></i>
+                  </button>
+
+                </h2>
+                <div id="flush-collapseOne5" class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionFlushExample5">
+                  <div class="accordion-body">
+                    <ul class="dropdown-nav">
+                      <li class="nav-item ">
+                        <div class="title"><a class="nav-link" href="deployment-overview.html">Overview</a></div>
+                      </li>
+                      <li class="nav-item ">
+                        <div class="title"><a class="nav-link" href="cpanel-deployment-gui.html">cPanel Server Laravel
+                            (GUI)</a>
+                        </div>
+                      </li>
+                      <li class="nav-item ">
+                        <div class="title"><a class="nav-link " href="cpanel-deployment.html">cPanel Server Laravel
+                            (CLI)</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="accordion accordion-flush sidebar-accordion" id="accordionFlushExample20">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne21" aria-expanded="true">Virtual Private Server (VPS)
+                                <i class="ri-arrow-down-s-line collapse-icon"></i>
+                              </button>
+                            </h2>
+                            <div id="flush-collapseOne21" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample20">
+                              <div class="accordion-body">
+                                <ul class="dropdown-nav">
+
+                                  <li class="nav-item">
+                                    <div class="accordion accordion-flush sidebar-accordion"
+                                      id="accordionFlushExample21">
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapse" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne23">Create Virtual Machine
+                                            <i class="ri-arrow-down-s-line collapse-icon"></i>
+                                          </button>
+                                        </h2>
+                                        <div id="flush-collapseOne23" class="accordion-collapse collapse"
+                                          data-bs-parent="#accordionFlushExample21">
+                                          <div class="accordion-body">
+                                            <ul class="dropdown-nav">
+                                              <li class="nav-item">
+                                                <div class="title"><a class="nav-link" href="aws-ec2.html">AWS</a></div>
+                                              </li>
+                                              <li class="nav-item">
+                                                <div class="title"><a class="nav-link" href="digital-ocean.html">Digital
+                                                    Ocean</a></div>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="lamp-stack-install.html">Apache Server
+                                        (LAMP)</a></div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <div class="title"><a class="nav-link" href="lemp-stack-install.html">Nginx
+                                        Server(LEMP)</a></div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="title"><a class="nav-link" href="vercel.html">Vercel</a></div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="github-setup.html">Update Old To New Version</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="fonts.html">Fonts</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="usecontext.html">useContext Hook</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="routing.html">Routing</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="theme-layouts.html">Theme Layout</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="multi-vendor.html">Multi Vendors</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="admin.html">Admin</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="gmail-configuration.html">Gmail Configuration</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="notice.html">Notice</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="pos.html">POS</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="manage-orders.html">Manage Orders</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="refund.html">Refund</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="review.html">Review</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="question-answer.html">Q&A</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="theme-types.html">Theme Type</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="home-page.html">Home Page</a></div>
+            </li> <li class="nav-item">
+              <div class="title"><a class="nav-link" href="menu.html">Menu</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="mode.html">Mode</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="currency.html">Currency</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="multi-language.html">Multi Language</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="role.html">Role</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="user.html">User</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="coupon.html">Coupon</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="category.html">Category</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="store.html">Store</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="product.html">Product</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="faq.html">Faqs</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="wallet.html">Wallet</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="setting.html">Settings</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title"><a class="nav-link" href="theme-option.html">Theme Option</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="title">
+                <a class="nav-link" href="payment-gateway.html">Payment Gateway</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="title">
+                <a href="features.html" class="nav-link px-0"> Features </a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <div class="title">
+                <a class="nav-link" href="thankyou.html">Thank you</a>
+              </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="content">
+        <div class="row">
+          <div class="col-sm-12">
+            <button class="btn sidebar-button">Menu</button>
+            <h4 class="main-title mb-4">
+              <img src="assets/images/favicon.png" alt="" id="databaseSetup" /> Linux, Apache, MySQL, PHP (LAMP) Stack
+            </h4>
+          </div>
+
+          <div class="warning-block">
+            <b>Note:</b>
+            <ol>
+                <li>You can set up FastKart on different types of clean Ubuntu servers using VPS, including Digital Ocean Droplets, Amazon Lightsail, AWS, Google Cloud Virtual Private Server, Azure Ubuntu Virtual Private Server, and more.</li>
+                <li>If you plan to utilize all the scripts <b>(fastkart-api, nextjs-fastkart-frontend, nextjs-fastkart-admin)</b> on a single server as outlined in this tutorial, we suggest setting up a new Ubuntu-based server with a minimum of 2+ CPU cores and 2GB+ of memory for an efficient and smooth operation.
+                </li>
+            </ol>
+        </div>
+
+          <h4 class="sub-title" id="nextjs">Introduction</h4>
+          <p style="padding-left: 16px">
+            A <b>"LAMP"</b> stack is a bundle of open-source software commonly used to host dynamic websites and web
+            apps written in PHP. It includes Linux for the operating system, Apache for the web server, MySQL for the
+            database, and PHP for processing dynamic content.
+          </p>
+
+          <div class="card">
+            <div class="card-body ul-body steps-ul">
+              <h4 class="main-sub-title" id="nextjs">Install LAMP</h4>
+              <ul style="margin-left: 15px;">
+                <h4 class="sub-title mt-4">Step 1: Installing Apache and Updating package</h4>
+                <p style="padding-left: 16px">
+                  - Start by updating the package manager cache. If this is the first time you’re using sudo within this
+                  session, you’ll be prompted to provide your user’s password to confirm you have the right privileges
+                  to manage system packages with apt:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#aptUpdate" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="aptUpdate">sudo apt update</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                          margin-top: 10px;
+                          margin-bottom: 15px;
+                          border: 1px solid #eee;
+                          border-radius: 5px;
+                          padding: 20px;
+                        " src="assets/images/vps/lamp/lamp-01.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p style="padding-left: 16px">
+                  - Then, install Apache with:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#aptInstallApache"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="aptInstallApache">sudo apt install apache2</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        border: 1px solid #eee;
+                        border-radius: 5px;
+                        padding: 20px;
+                      " src="assets/images/vps/lamp/lamp-02.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p style="padding-left: 16px;">
+                  - You’ll be prompted to confirm Apache’s installation. Confirm by pressing Y, then ENTER.
+                </p>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                          margin-top: 10px;
+                          margin-bottom: 15px;
+                          border: 1px solid #eee;
+                          border-radius: 5px;
+                          padding: 20px;
+                        " src="assets/images/vps/lamp/lamp-03.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p style="padding-left: 16px;">
+                  - Select unnattended-upgrades options by pressing <b>space-bar</b>, and then press <b>Tab</b> button
+                  to select <b>OK</b> button, please Enter button.
+                </p>
+
+
+
+                <h4 class="sub-title mt-4">Step 2: Setup Firewall to allow HTTP</h4>
+                <p style="padding-left: 16px">
+                  - Once the installation is finished, you’ll need to adjust your firewall settings to allow HTTP
+                  traffic.
+                </p>
+
+                <p style="padding-left: 16px">
+                  - Ubuntu’s default firewall configuration tool is called Uncomplicated Firewall (UFW). It has
+                  different application profiles that you can leverage.
+                </p>
+                <p style="padding-left: 16px">
+                  - To list all currently available UFW application profiles, execute this command:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#ufwAppList" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="ufwAppList">sudo ufw app list</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-04.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p style="padding-left: 16px">
+                  - To only allow traffic on port 80, use the Apache profile
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#ufwAllow" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="ufwAllow">sudo ufw allow in "Apache"</code></pre>
+                </div>
+
+                <p style="padding-left: 16px">
+                  - Enable firewall and verify the change with:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#ufwEnable" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="ufwEnable">sudo ufw enable</code></pre>
+                </div>
+
+                <p style="padding-left: 16px"> - After execute this command it will ask proceed this operation with
+                  existing ssh connection? Enter "y" and continue it.</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#ufwStatus" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="ufwStatus">sudo ufw status</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-05.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+
+                <h4 class="sub-title mt-4">Step 3: Find your Server’s Public IP Address</h4>
+                <p style="padding-left: 16px"> - If you do not know what your server’s public IP address is, there are a
+                  number of ways to find it. You can following this command to find your public server ip address.</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#publicIP" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="publicIP">ip addr show ens3 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                          margin-top: 10px;
+                          margin-bottom: 15px;
+                          border: 1px solid #eee;
+                          border-radius: 5px;
+                          padding: 20px;
+                        " src="assets/images/vps/lamp/lamp-06.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p style="padding-left: 16px"> - Open this IP address in your browser, If you can view this page, your
+                  web server is correctly installed and accessible through your firewall.</p>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                          margin-top: 10px;
+                          margin-bottom: 15px;
+                          border: 1px solid #eee;
+                          border-radius: 5px;
+                          padding: 20px;
+                        " src="assets/images/vps/lamp/lamp-07.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <h4 class="sub-title mt-4">Step 4: Installing PHP</h4>
+
+                <p style="padding-left: 16px"> - To install php and mysql, run the following command:</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#installPHP" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="installPHP">sudo apt install php libapache2-mod-php php-mysql</code></pre>
+                </div>
+
+                <p style="padding-left: 16px"> - Press "Y | y" tp continue this process and Once the installation is
+                  finished, run the following command to confirm your PHP version:
+                </p>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-08.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p style="padding-left: 16px"> - To install php extensions, run the following command:</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#installPHPExtensions"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="installPHPExtensions">sudo apt install php-mbstring php-xml php-bcmath php-simplexml php-intl php-gd php-curl php-zip php-gmp</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-09.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p style="padding-left: 16px"> - Once the installation is finished, you can run the following command to
+                  confirm your PHP version:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#phpVersion" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="phpVersion">php -v</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-10.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <h4 class="sub-title mt-4">Step 5: Installing Composer</h4>
+                <p style="padding-left: 16px"> - Update the local repository lists by entering the following in a
+                  command line.</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#aptUpdateClear" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="aptUpdateClear">sudo apt update</code></pre>
+                </div>
+
+                <p style="padding-left: 16px"> - The following curl command to have the latest Composer version.</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#composerDownload"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="composerDownload">curl -sS https://getcomposer.org/installer | php</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-11.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p style="padding-left: 16px"> - This will download and execute an installer script that will download
+                  the latest version of Composer and install it in your current working directory.</p>
+
+                <p style="padding-left: 16px"> - You’ll need to move the composer to use Composer globally and run the
+                  Composer commands from anywhere.phar file from your current directory to a location included in your
+                  PATH environment variable.</p>
+
+                <p style="padding-left: 16px"> - The most common location is the /usr/local/bin directory. So use the
+                  following command to initiate the move:</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#mvCOmposer" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="mvCOmposer">sudo mv composer.phar /usr/local/bin/composer</code></pre>
+                </div>
+
+                <p style="padding-left: 16px"> - To test composer installation, run:</p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#composer" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="composer">composer</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-12.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <h4 class="sub-title mt-4">Step 6: Install MySQL Database & User</h4>
+
+                <p style="padding-left: 16px"> - Now that you have a web server up and running, you need to install the
+                  database system to be able to store and manage data for your site. MySQL is a popular database
+                  management system used within PHP environments.</p>
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#mysqlServer" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="mysqlServer">sudo apt install mysql-server</code></pre>
+                </div>
+
+                <p style="padding-left: 16px;">
+                  - When prompted, confirm installation by typing Y, and then ENTER.
+                </p>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                          margin-top: 10px;
+                          margin-bottom: 15px;
+                          border: 1px solid #eee;
+                          border-radius: 5px;
+                          padding: 20px;
+                        " src="assets/images/vps/lamp/lamp-13.png" class="img-fluid girl-img" alt="" />
+                </div>
+                <p style="padding-left: 16px">
+                  - Start the interactive script by running:
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#secureInstallSQL"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="secureInstallSQL">sudo mysql_secure_installation</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-14.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <p style="padding-left: 16px;">
+                  - When prompted, confirm installation by typing Y, and then ENTER.
+                </p>
+
+                <p style="padding-left: 16px;">
+                  - If you answer “yes”, you’ll be asked to select a level of password validation.
+                </p>
+
+                <div class="warning-block">
+
+                  <p>
+
+                    If you choose the strongest level as 2, you'll encounter errors when trying to set a password that
+                    doesn't include numbers, uppercase and lowercase letters, and special characters.
+
+                  </p>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                          margin-top: 10px;
+                          margin-bottom: 15px;
+                          border: 1px solid #eee;
+                          border-radius: 5px;
+                          padding: 20px;
+                        " src="assets/images/vps/lamp/lamp-16.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+
+                <p style="padding-left: 16px mt-4">
+                  - We have choose the medium <b>level as 1</b>, after choose password validation level. It will ask
+                  some confirmation you can choose as your need.
+                </p>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-17.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <P style="padding-left: 16px">
+                  - When you’re finished, test whether you’re able to log in to the MySQL console by typing:
+                </P>
+
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#loginSQL" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="loginSQL">sudo mysql</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-18.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <P style="padding-left: 16px">
+                  - Once you are entering mysql panel, following some command for create database and database user to
+                  store data.
+                </P>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#datababseSQL" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="datababseSQL">CREATE DATABASE fastkart_laravel;</code></pre>
+                </div>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#dbSQL" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="dbSQL">CREATE USER 'fastkart'@'%' IDENTIFIED WITH mysql_native_password BY 'Password@123';</code></pre>
+                </div>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#flushSQL" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="flushSQL">GRANT ALL ON fastkart_laravel.* TO 'fastkart'@'%';</code></pre>
+                </div>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#flushSQL" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="flushSQL">FLUSH PRIVILEGES;</code></pre>
+                </div>
+
+                <P style="padding-left: 16px">
+                  - To exit the MySQL console, type:
+                </P>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#sqlExit" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="sqlExit">exit</code></pre>
+                </div>
+
+                <div class="effect-sec mt-2">
+                  <img style="
+                            margin-top: 10px;
+                            margin-bottom: 15px;
+                            border: 1px solid #eee;
+                            border-radius: 5px;
+                            padding: 20px;
+                          " src="assets/images/vps/lamp/lamp-19.png" class="img-fluid girl-img" alt="" />
+                </div>
+
+                <h4 class="sub-title mt-4">Step 7: Change permission for the www folder </h4>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#permissionFolder"
+                    title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="permissionFolder">sudo chown -R $USER:$USER /var/www;</code></pre>
+                </div>
+
+                <h4 class="sub-title mt-4">Step 8: Upload Fastkart API to Server</h4>
+
+                <P style="padding-left: 16px">
+                  - To make a new directory on your website, just type this command:
+                </P>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#makeFolder" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="makeFolder">mkdir /var/www/fastkart</code></pre>
+                </div>
+
+                <ol>
+                  <li>Download the <b>fastkart-laravel-nextjs-package</b> zip file from CodeCanyon and unzip it on your
+                    computer.</li>
+                  <li>Inside the unzipped folder, find <b>fastkart-api</b> folder
+                  </li>
+                  <li>Upload the <b>fastkart-api</b> folder to the server at the path /var/www/fastkart/.
+                  </li>
+                </ol>
+
+                <h4 class="sub-title mt-4">Step 9: Install zip and extract it</h4>
+
+                <P style="padding-left: 16px">
+                  - following this command to install zip and extract it.
+                </P>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#rnFolder" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="rnFolder">sudo apt install zip unzip</code></pre>
+                </div>
+
+                <h4 class="sub-title mt-4">10. Create Virtual Host File</h4>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#newDomain" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="newDomain">nano /etc/apache2/sites-available/your_domain.conf</code></pre>
+                </div>
+
+                <P style="padding-left: 16px">
+                  - Add Following Code in Virtual Host File
+                </P>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#editDomain" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre class="language-html"><code class="language-html" id="editDomain">
+                            &lt;VirtualHost *:80&gt;
+                                ServerName www.your-domain.com
+                                ServerAdmin contact@your-domain.com
+                                DocumentRoot /var/www/fastkart-api/public
+                                ErrorLog ${APACHE_LOG_DIR}/error.log
+                                CustomLog ${APACHE_LOG_DIR}/access.log combined
+                                &lt;Directory /var/www/fastkart-api/public/&gt;
+                                    Options -Indexes +FollowSymLinks
+                                    AllowOverride All
+                                    Require all granted
+                                &lt;/Directory&gt;
+                            &lt;/VirtualHost&gt;
+                        </code></pre>
+                </div>
+                <p>
+                  - Include the following Nginx configuration in your edited file:
+                </p>
+
+                <p>
+                  - Restart Apache2
+                </p>
+
+                <div class="code-box-copy">
+                  <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#restartApache" title="Copy">
+                    <i class="fa fa-clone" aria-hidden="true"></i>
+                  </button>
+                  <pre
+                    class="language-html"><code class="language-html" id="restartApache">service apache2 restart</code></pre>
+                </div>
+            </div>
+          </div>
+
+
+          <div class="card" id="laravelInstall">
+            <div class="card-body ul-body steps-ul">
+              <h4 class="main-sub-title mt-0" id="fastkartSetuplaravel">Installing Fastkart API</h4>
+              <h4 class="mt-4">
+                1. Initially, navigate to the <b>fastkart-api</b> directory, and change the file named .env.example as
+                .env.
+              </h4>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cdFastkartAPI" title="Copy">
+                  <i class="fa fa-clone" aria-hidden="true"></i>
+                </button>
+                <pre
+                  class="language-html"><code class="language-html" id="cdFastkartAPI">cd /var/www/fastkart/fastkart-api</code></pre>
+              </div>
+
+              <p style="padding-left: 16px">
+                - Add values to the below keys in the <strong> .env </strong> file using nano command
+
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#editEnv" title="Copy">
+                  <i class="fa fa-clone" aria-hidden="true"></i>
+                </button>
+                <pre class="language-html"><code class="language-html" id="editEnv">nano .env</code></pre>
+              </div>
+
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#cpEnv" title="Copy">
+                  <i class="fa fa-clone" aria-hidden="true"></i>
+                </button>
+                <pre class="language-html"><code class="language-html" id="cpEnv">cp .env.example .env</code></pre>
+              </div>
+
+              </p>
+
+              <div class="dark-block mb-3">
+                <p>If you're running your Laravel project on your own computer (localhost), make sure to use localhost with current running port and put in APP_URL. as a given example below</p>
+                <p>
+                  If you want to install on live server, you need to add your live server api url like a APP_URL=http://api.your-domain.com.
+                </p>
+              </div>
+              <div class="code-box-copy" style="padding-left: 16px">
+<pre class="language-html"><code class="language-html">APP_URL=http://localhost:8000
+DB_DATABASE=database_name
+DB_USERNAME=database_username
+DB_PASSWORD=database_password</code></pre>
+              </div>
+              <div class="warning-block mb-3">
+                <b>Note:</b> Make sure to set the <b>APP_URL</b> correctly. If you don't, features like uploading, downloading, and showing images won't work properly. Be sure to double-check and make sure everything is set up correctly.
+              </div>
+              <h4 class="mt-4">
+                2. Install Required Dependencies:
+              </h4>
+
+              <p style="padding-left: 16px">
+                - In the <b>fastkart-api</b> folder, run following command in the terminal to install the required
+                dependencies.
+              </p>
+
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#composerInstall" title="Copy">
+                  <i class="fa fa-clone" aria-hidden="true"></i>
+                </button>
+                <pre
+                  class="language-html"><code class="language-html" id="composerInstall">composer install </code></pre>
+              </div>
+
+
+              <h4 class="mt-4" id="installDependencies">
+                3. Generate Laravel APP KEY:
+              </h4>
+
+              <p style="padding-left: 16px">
+                - Once the necessary dependencies are successfully installed, run following command to generate laravel
+                app key.
+              </p>
+
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#keyGenerate" title="Copy">
+                  <i class="fa fa-clone" aria-hidden="true"></i>
+                </button>
+                <pre
+                  class="language-html"><code class="language-html" id="keyGenerate">php artisan key:generate</code></pre>
+              </div>
+
+              <h4 class="mt-4">
+                4. Installation of Fastkart:
+              </h4>
+              <p class="warning-block mb-2 mt-2">
+                <strong>Note:</strong>
+                If you've previously run following command or migrated tables, be aware of the fact that it will erase
+                all of your data.
+              </p>
+
+              <p style="padding-left: 16px">
+                - Then, run following command to install fastkart database table.
+              </p>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#fastkartInstall" title="Copy">
+                  <i class="fa fa-clone" aria-hidden="true"></i>
+                </button>
+                <pre
+                  class="language-html"><code class="language-html" id="fastkartInstall">php artisan fastkart:install</code></pre>
+              </div>
+              <p>
+                During the installation, you'll be asked two questions:
+              </p>
+              <p style="padding-left: 16px">
+                1. Do you want to continue with the installation? If you say yes, Fastkart will continue to install.
+              </p>
+              <p style="padding-left: 16px">
+                2. Do you want to import in sample data? If you say yes, the sample data will be imported. If you say
+                no, the installation will go ahead without adding any sample data.
+              </p>
+
+              <h4 class="mt-4">
+                5. Link Storage folder to Public folder:
+              </h4>
+              <p style="padding-left: 16px">
+                - Then, run following command to store and display images correctly.
+              </p>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#runProject" title="Copy">
+                  <i class="fa fa-clone" aria-hidden="true"></i>
+                </button>
+                <pre
+                  class="language-html"><code class="language-html" id="runProject">php artisan storage:link</code></pre>
+              </div>
+
+              <h4 class="mt-4">
+                6. Run Laravel API:
+              </h4>
+              <p style="padding-left: 16px">
+                - Once you've finished all the previous steps, you can run the Laravel API by adding following command.
+              </p>
+              <div class="code-box-copy">
+                <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#runProject" title="Copy">
+                  <i class="fa fa-clone" aria-hidden="true"></i>
+                </button>
+                <pre class="language-html"><code class="language-html" id="runProject">php artisan serve</code></pre>
+              </div>
+
+              <p style="padding-left: 16px">
+                - When you start your Laravel API project, it typically runs on the default port, you can access it by
+                opening <a target="_blank" href="http://127.0.0.1:8000/"> 127.0.0.1:8000 </a> in your web browser.
+              </p>
+
+              <h4 class="mt-4">
+                7. Verify Fastkart Purchase Code:
+              </h4>
+              <p style="padding-left: 16px">
+                - Before using the FastKart API, it's important to verify your Envato purchase code.
+              </p>
+
+              <p style="padding-left: 16px">
+                - Enter in your Envato username and the FastKart purchase code and click next button.
+              </p>
+
+              <div class="effect-sec mt-2">
+                <img style="
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        border: 1px solid #eee;
+                        border-radius: 5px;
+                        padding: 20px;
+                      " src="assets/images/laravelApi/installer-3-1.png" class="img-fluid girl-img" alt="" />
+              </div>
+
+              <p style="padding-left: 16px">
+                - If you don't know where to find your purchase code, click here: <a
+                  href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code"
+                  target="_blank"> where is my purchase code </a>
+              </p>
+
+              <p class="warning-block mb-2 mt-2">
+                <strong>Note:</strong> Once a license is verified, it can't be used for another project. An envato
+                purchase code can only be verified on one domain at a time.
+              </p>
+
+              <div class="effect-sec mt-2">
+                <img style="
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        border: 1px solid #eee;
+                        border-radius: 5px;
+                        padding: 20px;
+                      " src="assets/images/laravelApi/install-completed.png" class="img-fluid girl-img" alt="" />
+              </div>
+
+              <p>
+                Congratulations, Fastkart has been successfully installed and configured in your system!🎉
+              </p>
+
+              <p>For Postman API Documentation <a href="https://documenter.getpostman.com/view/23370132/2s8YmNPhch"
+                  target="_blank">Click Here</a>.</p>
+
+              <div class="dark-block mt-3">
+                <p>
+                  Once you've finished installing the Fastkart API, the next step is to set up the FastKart NextJs
+                  frontend.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="Install">
+            <div class="card-body ul-body steps-ul">
+
+              <h4 class="main-sub-title mt-0" id="nextjsDeploy">NextJs Frontend And Backend</h4>
+
+              <ul style="margin-left: 15px;">
+                <li>
+                  <h3 class="sub-title">For Frontend Store:</h3>
+                  <ol style="padding-left: 16px">
+                    <li>Find the <b>nextjs-fastkart-frontend</b> directory that you downloaded from CodeCanyon. </li>
+
+
+                    <div class="effect-sec mt-2">
+                      <img style="
+                              margin-top: 10px;
+                              margin-bottom: 15px;
+                              border: 1px solid #eee;
+                              border-radius: 5px;
+                              padding: 20px;
+                            " src="assets/images/general/nextjs-fastkart-frontend.png" class="img-fluid girl-img"
+                        alt="" />
+                    </div>
+
+                    <li>
+                      <p>Open the <b>next.config.js</b> file in your code editor and adjust the URL based on the reference image.</p>
+                    </li>
+                  </ol>
+                </li>
+
+                <img style="margin-bottom: 25px; margin-top: 10px; border: 1px solid #ddd; border-radius: 5px"
+                  src="assets/images/general/env-1.png" class="img-fluid">
+
+                <ul style="padding-left: 16px">
+                  <li><b>baseURl</b>: This represents the base URL for running our FastKart frontend project.</li>
+                  <li><b>URL</b>: This represents the Laravel API server URL</li>
+                  <li><b>storageURL</b>: Enter the laravel primary domain.</li>
+                </ul>
+                <li>
+                  <h3 class="sub-title">For Admin:</h3>
+                  <ol style="padding-left: 16px">
+                    <li>Find the <b>nextjs-fastkart-admin</b> directory that you downloaded from CodeCanyon. </li>
+
+                    <div class="effect-sec mt-2">
+                      <img style="
+                              margin-top: 10px;
+                              margin-bottom: 15px;
+                              border: 1px solid #eee;
+                              border-radius: 5px;
+                              padding: 20px;
+                            " src="assets/images/general/nextjs-fastkart-admin.png" class="img-fluid girl-img"
+                        alt="" />
+                    </div>
+                    <li>
+                      <p>Open the <b>next.config.mjs</b> file in your code editor and adjust the URL based on the reference image.</p>
+                    </li>
+                  </ol>
+                </li>
+                <img style="margin-bottom: 25px; margin-top: 10px; border: 1px solid #ddd; border-radius: 5px"
+                  src="assets/images/general/admin-build-env.png" class="img-fluid">
+            
+<li>
+                  <h5 class="mt-4">
+                     Install Node Module:
+                  </h5>
+                  <p style="padding-left: 16px">
+                    - In the <b>nextjs-fastkart-frontend</b> folder, run following command in the terminal to install
+                    the required dependencies.
+                  </p>
+                  <div class="code-box-copy" style="padding-left: 16px">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#npm-install" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button> 
+                    <pre class="language-html"><code class="language-html" id="npm-install">npm install</code></pre>
+                  </div>
+                  <img
+                    style="margin-left: 14px; margin-bottom: 10px; margin-top: 10px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px"
+                    src="assets/images/general/npm-front.png" class="img-fluid">
+                  </li>
+                  <li>
+                  <p>For building your nextjs application, utilize the following commands separately for both the
+                    frontend and admin
+                  </p>
+                  <div class="code-box-copy" style="padding-left: 16px">
+                    <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#base-href" title="Copy">
+                      <i class="fa fa-clone" aria-hidden="true"></i>
+                    </button>
+                    <pre class="language-html"><code class="language-html" id="base-href">npm run build</code></pre>
+                  </div>
+
+                  <img style="margin-bottom: 25px; margin-top: 10px; border: 1px solid #ddd; border-radius: 5px"
+                    src="assets/images/general/fastkart-build.png" class="img-fluid">
+                </li>
+
+                <li>
+                  <p>
+                    This will create a ".next" directory in your project with
+                    optimized files.
+                  </p>
+                </li>
+              </ul>
+
+              <h5 class="mt-4 sub-title" id="nextjsCli">Upload zip file to respective on server:</h5>
+              <p style="padding-left: 16px">
+                - Take the contents of the ".next" folder and upload them to your website's respective folder. <br>
+              </p>
+              <img style="margin-bottom: 25px; margin-top: 10px; border: 1px solid #ddd; border-radius: 5px"
+                src="assets/images/general/cp-6.png" class="img-fluid">
+
+              <p class="warning-block mb-2 mt-2">
+                <strong>Note:</strong>
+                For demostraction purposes, we are displaying a reference image of the FastKart frontend.
+              </p>
+
+              <p style="padding-left: 16px">
+                - Zip the Frontend project and upload it to the <b>/var/www/fastkart/</b> and extract it.<br>
+                - Zip the Admin project and upload it to the <b>/var/www/fastkart/admin</b> and extract it.<br>
+                Next, open the <b>index.html</b> file using the command <b>nano /var/www/fastkart/admin/index.html</b>
+                and modify the base href path to <b>&lt;base href="/admin/"></b>. This adjustment is necessary due to
+                the presence of a subfolder, hence the need to update the base href path.
+              </p>
+
+              <p class="mt-4">
+                - After making your changes, press CTRL and X, then confirm by pressing Y and ENTER to save and close
+                the file.
+              </p>
+
+              <p class="mt-2">
+                Congratulations on completing the FastKart installation! Now, navigate to the admin panel at
+                <b>your-domain.com/admin</b>. For the frontend, visit <b>your-domain.com</b>. Enjoy using FastKart!
+              </p>
+              
+            </div>
+          
+          </div>
+          <div class="card">
+            <div class="card-body ul-body steps-ul">
+              <h4 class="main-sub-title" id="defaultCredential">Default Credentials</h4>
+              <h4 class="mt-0">
+                Admin Credential:
+              </h4>
+              <p style="padding-left: 16px">
+                - <b>Url</b>: <a href="http://localhost:3000/auth/login"
+                  target="_blank">http://localhost:3000/auth/login</a>
+              </p>
+              <p style="padding-left: 16px">
+                - <b>Email</b>: admin@example.com
+              </p>
+              <p style="padding-left: 16px">
+                - <b>Password</b>: 123456789
+              </p>
+
+              <h4 class="mt-4">
+                Vendor Credential:
+              </h4>
+              <p style="padding-left: 16px">
+                - <b>Url</b>: <a href="http://localhost:3000/auth/login"
+                  target="_blank">http://localhost:3000/auth/login</a>
+              </p>
+              <p style="padding-left: 16px">
+                - <b>Email</b>: john.store@example.com
+              </p>
+              <p style="padding-left: 16px">
+                - <b>Password</b>: 123456789
+              </p>
+
+              <h4 class="mt-4">
+                Customer Credential:
+              </h4>
+              <p style="padding-left: 16px">
+                - <b>Url</b>: <a href="http://localhost:3000/auth/login"
+                  target="_blank">http://localhost:3000/auth/login</a>
+              </p>
+              <p style="padding-left: 16px">
+                - <b>Email</b>: john.customer@example.com
+              </p>
+              <p style="padding-left: 16px">
+                - <b>Password</b>: 123456789
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row footer-theme partition-f">
+          <div class="col-12">Copyright 2025 © Fastkart theme by pixelstrap</div>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-overlay"></div>
+</body>
+
+<!-- latest jquery-->
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<!-- Bootstrap js-->
+<script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+
+<!-- code copy box js-->
+<script src="assets/js/prism/prism.min.js"></script>
+<script src="assets/js/prism.js"></script>
+<script src="assets/js/clipboard/clipboard.min.js"></script>
+<script src="assets/js/custom-card/custom-card.js"></script>
+
+<!-- popover js-->
+<!-- code copy box js-->
+<!-- feather icon js-->
+<script src="assets/js/icons/feather-icon/feather.min.js"></script>
+<script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+<script src="assets/js/document/main.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
